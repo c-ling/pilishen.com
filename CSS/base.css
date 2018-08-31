@@ -1,0 +1,399 @@
+/* 1-头部导航 */
+.login {
+    width: 400px;
+    height: 250px;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -200px;
+    background-color: #fff;
+}
+
+.login .close-login {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #666;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.shortcut .fl .dt,
+.shortcut .fr .fore{
+    position: relative;
+    padding: 0 20px 0 10px;
+}
+
+.shortcut .fl i,
+.shortcut .fr i{
+    position: absolute;
+    font: 400 14px/1em "宋体" ;
+    height: 7px;
+    width: 14px;
+    top: 12px;
+    right: 5px;
+    overflow: hidden;
+}
+
+.shortcut .fl s,
+.shortcut .fr s{
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.shortcut .fr li{
+    float: left;
+    padding: 0 10px;
+}
+
+.shortcut .fr .line{
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+    margin-top: 9px;
+    padding: 0;
+}
+
+.shortcut .fr .tel-jd{
+    padding: 0 20px 0 28px;
+}
+
+.shortcut .fr .tel{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 15px;
+    height: 20px;
+    background: url(../images/sprite.png) no-repeat 0 0;
+}
+/* 1-头部导航end*/
+
+/* 2-顶部banner */
+.topbanner{
+    background-color: #8a25c6;
+}
+
+.topbanner .ad{
+    position: relative;
+}
+
+.topbanner .close-banner{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 19px;
+    width: 19px;
+    background: url(../images/close.png) no-repeat 0 0;
+} 
+
+.topbanner .close-banner:hover{
+    background-position: bottom;
+} 
+/* 2-顶部banner end*/
+
+/* 3-京东logo和搜索区 */
+.logo{
+    float: left;
+    position: relative;
+    height: 75px;
+    width: 362px;
+    padding-top: 25px;
+    background: url(../images/logo.png) no-repeat 0 25px;
+}
+
+.logo .jd-link{
+    display: block;
+    height: 60px;
+    width: 270px;
+    text-indent: -999em;
+}
+
+.logo .logo-gif{
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    top: 10px;
+    left: 168px;
+}
+
+.search{
+    float: left;
+    height: 36px;
+    width: 538px;
+    padding-top: 25px;
+}
+
+.search input{
+    float: left;
+    height: 32px;
+    width: 450px;
+    border: 2px solid #b61d1d;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "微软雅黑";
+}
+
+.search button{
+    float: left;
+    height: 36px;
+    width: 80px;
+    background: #b61d1d;
+    font: 16px/36px "微软雅黑";
+    color: #fff;
+    cursor: pointer;
+}
+
+.shopcar{
+    float: right;
+    position: relative;
+    width: 96px;
+    margin-top: 25px;
+    margin-right: 65px;
+    padding-left: 43px;
+    line-height: 34px;
+    border: solid 1px #dfdfdf;
+}
+
+.shopcar .car-icon1{
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    width: 16px;
+    height: 13px;
+    background: url(../images/sprite.png) no-repeat -1px -59px;
+}
+
+.shopcar .car-icon2{
+    position: absolute;
+    font: 400 14px/14px "simsun";
+    top: 9px;
+    right: 10px;
+}
+
+.shopcar .car-icon3{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    background: #c81632;
+    top: -4px;
+    border-radius: 50% 50% 50% 0;
+}
+
+.hotwords{
+    float: left;
+    width: 500px;
+    padding: 7px 0;
+} 
+
+.hotwords a{
+    margin-right: 7px;
+}
+/* 3-京东logo和搜索区 end */
+
+/* 4-nav部分头部选项卡 */
+.nav{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #b1191a; 
+}
+
+.nav .dropdown{
+    float: left;
+    width: 210px;
+    height: 44px;
+    position: relative;
+    z-index: 10;
+    overflow: visible;
+}
+
+.nav .dropdown .dd-top{
+    height: 44px;
+    background-color: #b1191a;
+}
+
+.nav .dropdown .dd-top a{
+    display: block;
+    height: 44px;
+    color: #fff;
+    font: 400 16px/44px "微软雅黑";
+    padding-left: 10px;
+}
+
+.nav .dropdown .dd-bottom{
+    height: 464px;
+    border: 1px solid #b1191a; 
+    border-top: none;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.nav .dropdown .dd-bottom .dd-item{
+    height: 31px;
+    color: #fff;
+    font: 400 15px/31px "微软雅黑";
+    padding: 0 13px 0 10px;
+}
+
+.nav .dropdown .dd-item p{
+    float: left;
+}
+
+.nav .dropdown .dd-item span{
+    float: right;
+    font: 600 12px/31px "宋体";
+}
+
+.nav .navitems{
+    float: left;
+    width: 680px;
+    height: 44px;
+}
+
+.nav .navitems li{
+    float: left;
+}
+
+.nav .navitems li.icon-new{
+    background: url(../images/new.jpg) no-repeat right top;
+}
+
+.nav .navitems a{
+    display: block;
+    font: 400 16px/44px "微软雅黑";
+    color: #333;
+    padding: 0 20px;
+}
+
+.nav .navitems a:hover{
+    color: #c81632;
+}
+
+.nav .bike{
+    float: right;
+    width: 140px;
+    height: 40px;
+    background: url(../images/bike.jpg) no-repeat 0 0;
+}
+
+.nav .bike a{
+    display: block;
+    height: 40px;
+}
+/* 4-nav部分头部选项卡 end */
+
+/* 5-页面底部 */
+.footer .slogen {
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+
+.footer .slogen .item{
+    position: absolute;
+    left: 50%;
+    width: 302px;
+    height: 54px;
+}
+
+.footer .slogen .item1{
+    margin-left: -604px;
+}
+
+.footer .slogen .item2{
+    margin-left: -302px;
+}
+
+.footer .slogen .item4{
+    margin-left: 302px;
+}
+
+.footer .server dl{
+    float: left;
+    width: 198px;
+}
+
+.footer .server .spe{
+    width: 152px;
+}
+
+.footer .server dt,
+.footer .coverage .dt
+{
+    font: 400 16px "微软雅黑";
+    height: 28px;
+    padding-top: 10px;
+}
+
+.footer .server dd{
+    font-size: 12px;
+    height: 20px;
+}
+
+.footer .coverage{
+    float: right;
+    width: 210px;
+    height: 168px;
+    padding-right: 56px;
+    background: url(../images/china.png) no-repeat left bottom;
+}
+
+.footer .coverage .dt{
+    padding-left: 20px;
+}
+
+.footer .coverage .dd{
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+.footer .coverage p{
+    line-height: 18px;
+}
+
+.footer .coverage .look-info{
+    padding-top: 3px;
+    text-align: right;
+}
+
+.footer > .w{
+    border-top: 1px solid #e5e5e5;
+    padding: 23px 0 30px 0;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.footer .links{
+    height: 25px;;
+}
+
+.footer .links a{
+    padding: 0 6px;
+}
+
+.footer .copyright{
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.footer .message a{
+    padding: 0 5px;
+}
+/* 5-页面底部 end */
